@@ -4,11 +4,39 @@ import projImg1 from "../assets/img/proj1.png";
 import projImg2 from "../assets/img/proj2.png";
 import projImg3 from "../assets/img/proj3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+
+import projImg4 from "../assets/img/p2.png";
+import projImg5 from "../assets/img/charts.png";
+import projImg6 from "../assets/img/home.png";
 // import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "solar panel",
+      description:
+        "A responsive landing page showcasing the company's solar panel services and providing information about the company, the website built with HTML5 and CSS3.",
+      Demo: "https://solarpanel-landingpage.netlify.app/",
+      Repo: "https://github.com/josala7/landingPage",
+      imgUrl: projImg6,
+    },
+    {
+      title: "Hotel Dashboard",
+      description:
+        "A Real world Dashboard that enables employees to manage their hotel operations with many features",
+      Demo: "https://the-wild-oasis-self-kappa.vercel.app/login",
+      Repo: "https://github.com/josala7/Hotel-Dashboard",
+      imgUrl: projImg5,
+    },
+    {
+      title: "Pizza Store",
+      description:
+        "A professional React application for delivering pizzas to customers",
+      Demo: "https://pizza-store-rust.vercel.app/",
+      Repo: "https://github.com/josala7/Pizza-Store",
+      imgUrl: projImg4,
+    },
     {
       title: "Agena Graduation project",
       description: "Dashboard and ecommerce mern stack Application",
@@ -31,21 +59,6 @@ export const Projects = () => {
       Repo: "https://github.com/josala7/EcommerceVanillaJS",
       imgUrl: projImg3,
     },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg1,
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg2,
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg3,
-    // },
   ];
 
   return (

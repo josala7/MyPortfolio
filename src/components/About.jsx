@@ -9,7 +9,7 @@ function About() {
         </div>
 
         <p>
-          Hi, I'm Yousef, a 22-year-old front-end developer driven by a deep
+          Hi, I'm Yousef, a 23-years-old front-end developer driven by a deep
           passion for web technologies and a desire to continuously learn and
           improve. I pride myself on being hardworking, detail-oriented, and
           always eager to tackle new challenges. With a strong foundation in

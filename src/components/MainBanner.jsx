@@ -79,7 +79,7 @@ export const MainBanner = () => {
                     </span>
                   </h1>
                   <p>
-                    I am Yousef, 22-years old I'm front-end developer with a
+                    I am Yousef, 23-years old I'm front-end developer with a
                     strong passion for learning and problem-solving. I am
                     dedicated, hardworking, and constantly seeking new
                     challenges to further enhance my skills and grow in the
@@ -99,7 +99,7 @@ export const MainBanner = () => {
                       <img src={navIcon2} alt="" />
                     </a>
                     <a
-                      href="https://www.linkedin.com/in/yousef-mohamed-000677256/"
+                      href="https://www.linkedin.com/in/yousefmohamed23/"
                       target="_blank"
                     >
                       <img src={navIcon3} alt="" />

@@ -2,6 +2,7 @@ import html from "../assets/img/skill1.png";
 import css from "../assets/img/skill2.png";
 import js from "../assets/img/skill3.png";
 import react from "../assets/img/skill4.png";
+import redux from "../assets/img/redux1.png";
 import bootstrap from "../assets/img/skill5.jpeg";
 import tailwind from "../assets/img/skill6.jpeg";
 import Carousel from "react-multi-carousel";
@@ -64,6 +65,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={react} alt="Image" />
                   <h5>React</h5>
+                </div>
+                <div className="item">
+                  <img src={redux} alt="Image" />
+                  <h5>Redux</h5>
                 </div>
                 <div className="item">
                   <img src={bootstrap} alt="Image" />
