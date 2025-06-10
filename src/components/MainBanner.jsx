@@ -15,7 +15,7 @@ export const MainBanner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Front End Developer"];
+  const toRotate = ["I'm a WordPress Developer"];
   const period = 1000;
 
   useEffect(() => {
@@ -68,22 +68,24 @@ export const MainBanner = () => {
                   }
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
+                  
                   <h1>
-                    {`Hi! I'm Yousef  I'm `}{" "}
+
+                    {`Hi! I'm Yousef`}{" "} <br/>
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Front End Developer" ]'
-                    >
+                      data-rotate='[ "WordPress Developer" ]'
+                      >
                       <span className="wrap">{text}</span>
                     </span>
+                      
                   </h1>
+                  
                   <p>
-                    I am Yousef, 23-years old I'm front-end developer with a
-                    strong passion for learning and problem-solving. I am
-                    dedicated, hardworking, and constantly seeking new
-                    challenges to further enhance my skills and grow in the
-                    field of web development.
+                  Hi, I’m Yousef — a WordPress developer with a strong passion for learning and solving problems.
+                     I’m dedicated, hardworking, and always looking for new challenges that push me to grow and improve my skills in web development.
+
                   </p>
                   <div className="social-icon">
                     <a

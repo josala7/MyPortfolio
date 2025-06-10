@@ -9,15 +9,10 @@ function About() {
         </div>
 
         <p>
-          Hi, I'm Yousef, a 23-years-old front-end developer driven by a deep
-          passion for web technologies and a desire to continuously learn and
-          improve. I pride myself on being hardworking, detail-oriented, and
-          always eager to tackle new challenges. With a strong foundation in
-          front-end development, I am committed to delivering high-quality,
-          user-focused solutions that contribute to meaningful digital
-          experiences. My journey is fueled by a constant curiosity and a
-          dedication to growing both personally and professionally in the tech
-          industry.
+           I recently graduated with a degree in a Computer Science departement from faculty of science in Alexandria university, building a strong foundation in programming, algorithms,
+           and problem-solving. Passionate about web development, I enjoy blending design and functionality to create intuitive digital experiences.
+           Now, as a Wordpress Developer,
+           I’m eager to apply my skills and creativity to crafting seamless and engaging user interfaces.
         </p>
       </div>
     </div>

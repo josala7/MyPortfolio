@@ -6,6 +6,10 @@ import redux from "../assets/img/redux1.png";
 import bootstrap from "../assets/img/skill5.jpeg";
 import tailwind from "../assets/img/skill6.jpeg";
 import Carousel from "react-multi-carousel";
+import wordpress from "../assets/img/w1.png";
+import cpanel from "../assets/img/c1.png";
+import woocommerce from "../assets/img/woo1.jpeg";
+
 import "react-multi-carousel/lib/styles.css";
 // import arrow1 from "../assets/img/leftArrow.png";
 // import arrow2 from "../assets/img/rightArrow.png";
@@ -16,19 +20,19 @@ export const Skills = () => {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      items: 6,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 6,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 3,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1,
+      items: 2,
     },
   };
 
@@ -61,6 +65,18 @@ export const Skills = () => {
                 <div className="item">
                   <img src={js} alt="Image" />
                   <h5>JavaScript</h5>
+                </div>
+                <div className="item">
+                  <img src={wordpress} alt="Image" />
+                  <h5>WordPress</h5>
+                </div>
+                <div className="item">
+                  <img src={woocommerce} alt="Image" />
+                  <h5>Woocommerce</h5>
+                </div>
+                <div className="item">
+                  <img src={cpanel} alt="Image" />
+                  <h5>CPanel</h5>
                 </div>
                 <div className="item">
                   <img src={react} alt="Image" />
