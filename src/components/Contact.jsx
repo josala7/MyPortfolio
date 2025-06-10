@@ -43,10 +43,10 @@ export const Contact = () => {
 
     try {
       const response = await emailjs.send(
-        "Gmail", // replace with your Email.js Service ID
-        "joosala4@gmail.com", // replace with your Email.js Template ID
+        "service_nuh5kve", // replace with your Email.js Service ID
+        "template_osxvm2j", // replace with your Email.js Template ID
         templateParams,
-        "service_nuh5kve" // replace with your Email.js User ID (public key)
+        "a6CldAIY7XQbQsNic" // replace with your Email.js User ID (public key)
       );
 
       setButtonText("Send");
@@ -65,7 +65,7 @@ export const Contact = () => {
       setButtonText("Send");
       setStatus({
         success: false,
-        message: "Something went wrong, please try again later.",
+        message: "Something went wrong.",
       });
     }
   };

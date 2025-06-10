@@ -62,6 +62,7 @@ export const MainBanner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
+                <>
                 <div
                   className={
                     isVisible ? "animate__animated animate__fadeIn" : ""
@@ -87,6 +88,8 @@ export const MainBanner = () => {
                      I’m dedicated, hardworking, and always looking for new challenges that push me to grow and improve my skills in web development.
 
                   </p>
+              
+                               
                   <div className="social-icon">
                     <a
                       href="https://www.facebook.com/profile.php?id=100011305060509"
@@ -114,6 +117,7 @@ export const MainBanner = () => {
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button> */}
                 </div>
+                </>
               )}
             </TrackVisibility>
           </Col>

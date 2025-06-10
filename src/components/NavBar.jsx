@@ -88,14 +88,37 @@ export const NavBar = () => {
               >
                 Projects
               </Nav.Link>
+              <Nav.Link
+                href="#connect"
+                className={
+                  activeLink === "connect"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("connect")}
+              >
+                Contact
+              </Nav.Link>
             </Nav>
-            <span className="navbar-text">
+            {/* <span className="navbar-text">
               <HashLink to="#connect">
                 <button className="vvd">
-                  <span>Let’s Connect</span>
+                  <span>Download CV</span>
                 </button>
               </HashLink>
-            </span>
+            </span> */}
+            <span className="navbar-text">
+  <a
+    href="https://drive.google.com/file/d/1vcVNlYtRNb0Wnl38xKL7M3zr9zXbbI8S/view"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button className="vvd">
+      <span>Download CV</span>
+    </button>
+  </a>
+</span>
+
           </Navbar.Collapse>
         </Container>
       </Navbar>
