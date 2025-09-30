@@ -7,11 +7,14 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg4 from "../assets/img/p2.png";
 import projImg5 from "../assets/img/charts.png";
 import projImg6 from "../assets/img/home.png";
-
-import foodcraft from "../assets/img/foodcraft.png";
+import stayin from "../assets/img/Stay-in.jpg"
+import Pali from "../assets/img/Pali.jpg"
+import copalin from "../assets/img/copalin.jpg"
+import ERA from "../assets/img/ERA.jpg"
+import VoiLuna from "../assets/img/VoiLuna.jpg"
 import egyglove from "../assets/img/egyglove.png";
-import onehoster from "../assets/img/onehoster.png";
 import metal from "../assets/img/metal.png";
+import onehoster from "../assets/img/onehoster.png";
 
 import TrackVisibility from "react-on-screen";
 
@@ -70,33 +73,62 @@ export const Projects = () => {
   ];
   const WordpressProjects=[
    {
+      title: "VoiLuna",
+      description:
+        " Online fashion store with woocommerce catering to customers interested in styles like abayas and hijabs.",
+      Live: "https://voiluna.com/",
+      imgUrl: VoiLuna,
+    },
+   {
+      title: "Copalin",
+      description:
+        " Copalin is Chemical Industries Company specializing in protective, marine, and decorative coatings.",
+      Live: "https://copalin.com/web/",
+      imgUrl: copalin,
+    },
+   {
+      title: "Pali Buisness",
+      description:
+        "Business that offers strategic marketing, website development, and visual identity services.",
+      Live: "https://staging4.salesbooklet.palibusiness.com/",
+      imgUrl: Pali,
+    },
+   {
+      title: "ERA-TBOT",
+      description:
+        "UAE-based trading technology firm specializing in high-performance automated solutions for MetaTrader 4.",
+      Live: "https://eratbot.com/",
+      imgUrl: ERA,
+    },
+   {
+      title: "Stay in",
+      description:
+        " Stayin is a Full booking system enabling users to browse properties, reserve units, and contact owners.",
+      Live: "https://stayin-eg.com/",
+      imgUrl: stayin,
+    },
+   {
       title: "Metal Technology",
       description:
         " Metal Technology is a leading manufacturer of electrical distribution panels in Egypt, offering innovative, high-quality solutions",
       Live: "https://metaltechnology.org/",
       imgUrl: metal,
     },
-   {
-      title: "FoodCraft",
-      description:
-        " FoodCraft is a full ecommerce website for offering food , careers , landing page and more",
-      Live: "https://foodcraft.com.eg/",
-      imgUrl: foodcraft,
-    },
-   {
+    {
       title: "Egyglove",
       description:
         " EGYGLOVE Company is a leading medical latex powder free gloves manufacturer based in Egypt",
       Live: "https://egyglove.com/web/",
       imgUrl: egyglove,
     },
-   {
+     {
       title: "OneHoster",
       description:
         " OneHoster is a Creative digital design and web hosting company, they offer a wide range of online tools to bring your business online",
       Live: "https://onehoster.com",
       imgUrl: onehoster,
     },
+   
   ]
 
   return (
