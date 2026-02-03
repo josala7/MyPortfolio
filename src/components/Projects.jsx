@@ -72,13 +72,7 @@ export const Projects = () => {
     
   ];
   const WordpressProjects=[
-   {
-      title: "VoiLuna",
-      description:
-        " Online fashion store with woocommerce catering to customers interested in styles like abayas and hijabs.",
-      Live: "https://voiluna.com/",
-      imgUrl: VoiLuna,
-    },
+
    {
       title: "Copalin",
       description:
@@ -87,25 +81,11 @@ export const Projects = () => {
       imgUrl: copalin,
     },
    {
-      title: "Pali Buisness",
-      description:
-        "Business that offers strategic marketing, website development, and visual identity services.",
-      Live: "https://staging4.salesbooklet.palibusiness.com/",
-      imgUrl: Pali,
-    },
-   {
       title: "ERA-TBOT",
       description:
         "UAE-based trading technology firm specializing in high-performance automated solutions for MetaTrader 4.",
       Live: "https://eratbot.com/",
       imgUrl: ERA,
-    },
-   {
-      title: "Stay in",
-      description:
-        " Stayin is a Full booking system enabling users to browse properties, reserve units, and contact owners.",
-      Live: "https://stayin-eg.com/",
-      imgUrl: stayin,
     },
    {
       title: "Metal Technology",
@@ -120,13 +100,6 @@ export const Projects = () => {
         " EGYGLOVE Company is a leading medical latex powder free gloves manufacturer based in Egypt",
       Live: "https://egyglove.com/web/",
       imgUrl: egyglove,
-    },
-     {
-      title: "OneHoster",
-      description:
-        " OneHoster is a Creative digital design and web hosting company, they offer a wide range of online tools to bring your business online",
-      Live: "https://onehoster.com",
-      imgUrl: onehoster,
     },
    
   ]
