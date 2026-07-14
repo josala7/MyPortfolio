@@ -126,7 +126,7 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Projects</h2>
+                  <h2>WordPress Projects</h2>
 
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
