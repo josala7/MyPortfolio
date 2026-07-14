@@ -15,64 +15,39 @@ import VoiLuna from "../assets/img/VoiLuna.jpg"
 import egyglove from "../assets/img/egyglove.png";
 import metal from "../assets/img/metal.png";
 import onehoster from "../assets/img/onehoster.png";
+import tfc from "../assets/img/tfc.png";
+import elhoda from "../assets/img/elhoda.png";
+import melt from "../assets/img/melt.png";
+import noprshr from "../assets/img/noprshr.png";
+import elborg from "../assets/img/elborg.png";
+import nasons from "../assets/img/nasons.png";
+import TripleE from "../assets/img/TripleE.png";
 
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
-  const BasicsProjects=[
+  const Buisnesses=[
     {
-      title: "solar panel",
+      title: "El Hoda",
       description:
-        "A responsive landing page showcasing the company's solar panel services and providing information about the company, the website built with HTML5 and CSS3.",
-      Live: "https://solarpanel-landingpage.netlify.app/",
-      Repo: "https://github.com/josala7/landingPage",
-      imgUrl: projImg6,
+        " premier Egyptian company serving the healthcare sector for over two decades",
+      Live: "https://elhodatrade.com/",
+      imgUrl: elhoda,
     },
     {
-      title: "cloth shop",
-      description: "E-commerce Application",
-      Live: "https://ecommercewithvanillajs.netlify.app/",
-      Repo: "https://github.com/josala7/EcommerceVanillaJS",
-      imgUrl: projImg3,
-    },
-  ]
-  const ReactProjects = [
-    
-    {
-      title: "Hotel Dashboard",
+      title: "TFC Finance",
       description:
-        "A Real world Dashboard that enables employees to manage their hotel operations with many features",
-      Live: "https://the-wild-oasis-self-kappa.vercel.app/login",
-      Repo: "https://github.com/josala7/Hotel-Dashboard",
-      imgUrl: projImg5,
+        "non-bank financial institution providing structured financing solutions.",
+      Live: "https://tfc-finance.themirrorful.com/",
+      imgUrl: tfc,
     },
     {
-      title: "Pizza Store",
+      title: "Melt",
       description:
-        "A professional React application for delivering pizzas to customers",
-      Live: "https://pizza-store-rust.vercel.app/",
-      Repo: "https://github.com/josala7/Pizza-Store",
-      imgUrl: projImg4,
+        "Misr Emirates Life Takaful - Salama Company is providing Takaful Life Insurance in Egypt ",
+      Live: "https://melt.themirrorful.com/",
+      imgUrl: melt,
     },
-    {
-      title: "Agena Graduation project",
-      description: "Dashboard and ecommerce mern stack Application",
-      Live: "https://graduation-project-inky.vercel.app",
-      Repo: "https://github.com/josala7/Graduation-Project",
-      imgUrl: projImg1,
-      
-    },
-    {
-      title: "usePopcorn website",
-      description: "movie react website",
-      Live: "https://use-popcorn-nine-psi.vercel.app/",
-      Repo: "https://github.com/josala7/usePopcorn",
-      imgUrl: projImg2,
-    },
-    
-  ];
-  const WordpressProjects=[
-
    {
       title: "Copalin",
       description:
@@ -101,6 +76,41 @@ export const Projects = () => {
       Live: "https://egyglove.com/web/",
       imgUrl: egyglove,
     },
+  ]
+  const Ecommerce = [
+     {
+      title: "Nasons",
+      description:
+        "NASONS Electric is a leading manufacturer of heat-shrink products and electrical cable accessories",
+      Live: "https://nasons.com/",
+      imgUrl: nasons,
+    },
+     {
+      title: "NO PRSHR",
+      description:
+        "NO PRSHR is a specialty coffee roastery built on patience, precision, and respect for the process",
+      Live: "https://noprshr.com/",
+      imgUrl: noprshr,
+    },
+     {
+      title: "El Borg",
+      description:
+        "ELBORG FOUNDRY FOR THE MANUFACTURING OF CUSTOMISED, HIGH QUALITY, HEAT AND WEAR RESISTANT, SPECIAL STEELS AND ALLOYS, SPARE PARTS.",
+      Live: "https://elborgfoundry.com/",
+      imgUrl: elborg,
+    },
+
+    
+  ];
+  const Elearning=[
+     {
+      title: "Triple E",
+      description:
+        "Institute for Teaching University Students ",
+      Live: "https://www.tripleeedu.com/",
+      imgUrl: TripleE,
+    },
+
    
   ]
 
@@ -125,13 +135,13 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">WordPress</Nav.Link>
+                        <Nav.Link eventKey="first">Buisness</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">React.js</Nav.Link>
+                        <Nav.Link eventKey="second">Ecommerce</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Html,CSS & JS</Nav.Link>
+                        <Nav.Link eventKey="third">Elearning</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -142,21 +152,21 @@ export const Projects = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {WordpressProjects.map((project, index) => {
+                          {Buisnesses.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <Row>
-                          {ReactProjects.map((project, index) => {
+                          {Ecommerce.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                           <Row>
-                          {BasicsProjects.map((project, index) => {
+                          {Elearning.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
