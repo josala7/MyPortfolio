@@ -380,6 +380,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .education-details {
   display: flex;
   flex-direction: row;
+  flex-wrap:wrap;
   justify-content: center;
   gap: 20px;;
 }
