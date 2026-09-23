@@ -109,7 +109,7 @@ export const NavBar = () => {
             </span> */}
             <span className="navbar-text">
   <a
-    href="https://drive.google.com/file/d/16VGoxOughgXeCcGHc2cmT7qIZAEpM7DD/view?usp=sharing"
+    href="https://drive.google.com/file/d/13IEjfqUJgA8TtGitSaOI6DkKzlE4EVRu/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
   >
