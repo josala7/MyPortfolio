@@ -8,25 +8,25 @@ function Education() {
       institution: "Alexandria University",
       period: "Sep 2021 — Jun 2024",
       description:
-        "Studied computer science with a focus on software development and problem solving.",
-      courses: [
+        "Studied computer science with a focus on software development, problem solving, and modern computing technologies.",
+      skills: [
         "Web Development",
         "Data Structures",
         "Algorithms",
         "Software Engineering",
-        "Computer Networks",
-        "Artificial Intelligence",
+        "Networks",
+        "AI",
         "Java",
         "Databases",
       ],
     },
     {
-      title: "Digital Egypt Pioneers Initiative (DEPI)",
-      institution: "Ministry of Communications and Information Technology",
+      title: "Digital Egypt Pioneers Initiative",
+      institution: "Ministry of Communications and IT",
       period: "Apr 2024 — Oct 2024",
       description:
-        "Completed an intensive training program focused on modern web development and professional skills.",
-      courses: [
+        "Completed an intensive training program focused on full-stack web development and professional skills.",
+      skills: [
         "HTML5",
         "CSS3",
         "JavaScript",
@@ -35,7 +35,7 @@ function Education() {
         "Express.js",
         "MongoDB",
         "Communication",
-        "Presentation Skills",
+        "Presentation",
       ],
     },
   ];
@@ -55,38 +55,36 @@ function Education() {
           build a strong foundation in software development.
         </p>
 
-        <div className="education-timeline">
+        <div className="education-grid">
           {education.map((item, index) => (
-            <div className="education-item" key={index}>
+            <div className="education-card" key={index}>
 
-              <div className="timeline-marker">
-                <span></span>
+              <div className="education-card-top">
+                <span className="education-icon">
+                  🎓
+                </span>
+
+                <span className="education-period">
+                  {item.period}
+                </span>
               </div>
 
-              <div className="education-card">
+              <h3>{item.title}</h3>
 
-                <div className="education-header">
-                  <div>
-                    <h3>{item.title}</h3>
-                    <h4>{item.institution}</h4>
-                  </div>
+              <h4>{item.institution}</h4>
 
-                  <span className="education-period">
-                    {item.period}
+              <p className="education-description">
+                {item.description}
+              </p>
+
+              <div className="education-skills">
+                {item.skills.map((skill, skillIndex) => (
+                  <span key={skillIndex}>
+                    {skill}
                   </span>
-                </div>
-
-                <p className="education-description">
-                  {item.description}
-                </p>
-
-                <div className="education-skills">
-                  {item.courses.map((course, courseIndex) => (
-                    <span key={courseIndex}>{course}</span>
-                  ))}
-                </div>
-
+                ))}
               </div>
+
             </div>
           ))}
         </div>
