@@ -22,6 +22,9 @@ import noprshr from "../assets/img/noprshr.png";
 import elborg from "../assets/img/elborg.png";
 import nasons from "../assets/img/nasons.png";
 import TripleE from "../assets/img/TripleE.png";
+import alderbynight from "../assets/img/alderbynight.jpg";
+import elraielaam from "../assets/img/elraielaam.jpg";
+import malaeb from "../assets/img/malaeb.jpg";
 
 import TrackVisibility from "react-on-screen";
 
@@ -38,7 +41,7 @@ export const Projects = () => {
       title: "TFC Finance",
       description:
         "non-bank financial institution providing structured financing solutions.",
-      Live: "https://tfc-finance.themirrorful.com/",
+      Live: "https://tfc-finance.com/",
       imgUrl: tfc,
     },
     {
@@ -47,6 +50,27 @@ export const Projects = () => {
         "Misr Emirates Life Takaful - Salama Company is providing Takaful Life Insurance in Egypt ",
       Live: "https://melt.themirrorful.com/",
       imgUrl: melt,
+    },
+    {
+      title: "alderbynight",
+      description:
+        "sports podcast website built to showcase football-focused episodes, featured guests, and podcast content.",
+      Live: "https://alderbynight.com/",
+      imgUrl: alderbynight,
+    },
+    {
+      title: "elraielaam",
+      description:
+        "Arabic news and media website featuring categorized news coverage across politics, economy, sports and technology ",
+      Live: "https://elraielaam.com/",
+      imgUrl: elraielaam,
+    },
+    {
+      title: "malaeb",
+      description:
+        "A responsive Arabic sports news platform covering local and international sports",
+      Live: "https://malaeb.info/",
+      imgUrl: malaeb,
     },
    {
       title: "Copalin",
